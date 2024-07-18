@@ -47,12 +47,12 @@ const Portfolio = () => {
             key={i}
             className='card items-center flex flex-col border rounded-lg border-primary'
           >
-            <div className='h-[400px] max-w-[600px] w-full'>
+            <div className='h-[400px] max-w-[500px] w-full'>
               <Image
                 src={item.img}
                 alt=''
                 className='h-full w-full object-cover rounded-t-lg'
-                width={500}
+                width={600}
                 height={500}
               />
             </div>

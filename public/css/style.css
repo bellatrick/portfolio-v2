@@ -55,7 +55,6 @@ body {
   letter-spacing: 0px;
   word-wrap: break-word;
   font-weight: 400;
-  color: var(--main-color);
   overflow-x: hidden;
 }
 
@@ -2046,7 +2045,6 @@ h6 {
 }
 .jara_tm_modalbox .portfolio_main_title .category a {
   display: inline-block;
-  color: var(--main-color);
   margin-bottom: 7px;
 
   -webkit-transition: all 0.3s ease;
@@ -2104,7 +2102,7 @@ h6 {
 }
 .jara_tm_modalbox .main_details .detailbox span a {
   text-decoration: none;
-  color: var(--main-color);
+
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -2130,7 +2128,6 @@ h6 {
 }
 .jara_tm_modalbox .main_details .detailbox .share li a {
   text-decoration: none;
-  color: var(--main-color);
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
