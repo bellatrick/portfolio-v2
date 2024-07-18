@@ -1,0 +1,119 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --gradient: linear-gradient(to top left, #00bf8f, #001510);
+
+    --background: 175 65% 3.04%;
+    --foreground: 175 10% 96.9%;
+
+    --muted: 175 50% 11.4%;
+    --muted-foreground: 175 10% 53.8%;
+
+    --popover: 175 45% 4.94%;
+    --popover-foreground: 175 10% 96.9%;
+
+    --card: 175 45% 4.94%;
+    --card-foreground: 175 10% 96.9%;
+
+    --border: 175 50% 11.4%;
+    --input: 175 50% 11.4%;
+
+    --primary: 175 100% 38%;
+    --primary-foreground: 175 10% 96.9%;
+
+    --secondary: 175 50% 11.4%;
+    --secondary-foreground: 175 10% 96.9%;
+
+    --accent: 175 50% 11.4%;
+    --accent-foreground: 175 10% 96.9%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 175 10% 96.9%;
+
+    --ring: 175 100% 38%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.buttonStyle {
+  @apply rounded px-5 py-2.5 text-center overflow-hidden bg-teal-600 relative hover:bg-gradient-to-r
+     hover:from-teal-800 hover:to-teal-500 text-white hover:ring-2
+     hover:ring-offset-2 hover:ring-teal-400 transition-all ease-out duration-300;
+}
+.buttonAnimate {
+  @apply absolute right-0 w-8 h-32 -mt-12 transition-all duration-1000 transform
+     translate-x-12 bg-white opacity-10 rotate-12 group-hover:-translate-x-40 ease-in-out;
+}
+
+.bg-apply {
+  @apply dark:bg-gradient-to-tl  dark:from-teal-900 dark:to-black bg-gradient-to-tl from-teal-100 to-white;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+  border-radius: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  width: 11px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0399a3;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #42bbee;
+}
+
+.description_wrap::-webkit-scrollbar-thumb {
+  background: #0399a3;
+}
