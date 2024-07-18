@@ -12,32 +12,32 @@ const ProjectPopup = () => {
           <img src={portfolioModal.img} alt='' />
           <div className='main' data-img-url={portfolioModal.img} />
         </div>
-        <div className='p-4 pb-4'>
+        <div className='lg:p-4 p-1 pb-4'>
           <div className=''>
             <p className='font-bold text-lg text-teal-600 pb-2'>My contribution</p>
             <p className=''>{portfolioModal.role}</p>
           </div>
         </div>
-        <div className='portfolio_main_title px-6 flex justify-between'>
+        <div className='portfolio_main_title lg:px-6 flex gap-4 justify-between'>
           <Link
             target='_blank'
             rel='noreferrer'
             href={portfolioModal.website}
-            className='buttonStyle group max-w-[200px] w-full'
+            className='buttonStyle group w-full'
           >
             <span className='buttonAnimate'></span>
 
-            <span className='relative'>Documentation</span>
+            <span className='relative lg:text-[16px] text-[12px]'>Documentation</span>
           </Link>
           <Link
             href={portfolioModal.github}
             target='_blank'
             rel='noreferrer'
-            className='buttonStyle group max-w-[200px] w-full'
+            className='buttonStyle group  w-full'
           >
             <span className='buttonAnimate'></span>
 
-            <span className='relative'>Github</span>
+            <span className='relative lg:text-[16px] text-[12px]'>Github</span>
           </Link>
         </div>
       </div>

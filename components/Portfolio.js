@@ -40,7 +40,7 @@ const Portfolio = () => {
         {' '}
         <p className='font-bold text-[40px] leading-[120px]'>Projects</p>
       </div>{' '}
-      <div className='wrap  py-10 pb-10  relative flex gap-[40px] justify-center sm:justify-start flex-wrap mb-6'>
+      <div className='wrap  py-10 pb-10 px-[100px] lg:px-2 relative flex gap-[40px] justify-center sm:justify-start flex-wrap mb-6'>
         {projects.map((item, i) => (
           <Link
             href={item.link}

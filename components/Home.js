@@ -37,7 +37,7 @@ const Home = () => {
               </div>
             </div>
             <div className="right">
-              <div className="h-[500px] w-[500px] object-cover">
+              <div className=" flex items-center  ">
                 <Image height={700} width={700} className="" src="/img/logo/moji.png" alt="" />
 
               </div>

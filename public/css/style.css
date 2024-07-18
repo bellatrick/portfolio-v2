@@ -1955,7 +1955,6 @@ h6 {
   height: 100%;
   float: left;
   overflow: hidden;
-  padding: 50px;
   overflow-y: scroll;
 }
 .jara_tm_modalbox .description_wrap:before {
@@ -2838,7 +2837,7 @@ h6 {
     padding-bottom: 130px;
   }
   .jara_tm_modalbox .box_inner {
-    width: 300px;
+    max-width: 370px;
     top: 40px;
     bottom: 40px;
   }
