@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 import Marquee from "react-fast-marquee";
 
@@ -37,7 +38,7 @@ const Home = () => {
             </div>
             <div className="right">
               <div className="in">
-                <img className="" src="img/about/mymoji2.png" alt="" />
+                <Image height={200} width={200} className="" src="/img/about/mymoji2.png" alt="" />
 
               </div>
             </div>

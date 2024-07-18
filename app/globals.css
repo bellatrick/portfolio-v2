@@ -106,7 +106,7 @@
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: #0399a3;
+  background: #01393d;
 }
 
 /* Handle on hover */
@@ -115,5 +115,5 @@
 }
 
 .description_wrap::-webkit-scrollbar-thumb {
-  background: #0399a3;
+  background: #01393d;
 }

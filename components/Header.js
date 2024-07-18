@@ -41,9 +41,10 @@ const Header = () => {
         <div className='mobile_menu_inner bg-black/70'>
           <div className='mobile_in'>
             <div className='logo'>
-              <a href='#'>
-                <img src='img/logo/logo.png' alt='' />
-              </a>
+              <div className='pt-4'>
+                {' '}
+                <ThemeSwitcher />
+              </div>
             </div>
             <div className='trigger'>
               <div
@@ -71,6 +72,7 @@ const Header = () => {
                 </li>
               ))}
             </ul>
+
             <SocialIcon />
           </div>
         </div>

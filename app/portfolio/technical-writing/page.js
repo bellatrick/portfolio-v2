@@ -62,15 +62,15 @@ const SoftwareDev = () => {
   return (
     <JaraLayout>
       <div className='bg-apply  py-40 px-20'>
-        <div className='flex justify-between py-4'>
-          <p className='text-[32px] font-bold'>Technical Writing Projects</p>
-          <p className='hover:underline text-[14px] font-semibold text-teal-600'>
+        <div className='flex mx-auto w-full flex-col gap-4 lg:flex-row items-center lg:justify-between py-4'>
+          <p className='lg:text-[32px] text-[20px] font-bold '>Technical Writing Projects</p>
+          <p className='hover:underline text-[14px] font-semibold underline text-teal-600'>
             <Link href={'/portfolio/software-dev'}>
               Go to web development projects
             </Link>
           </p>
         </div>{' '}
-        <div className='relative flex gap-[20px] mx-auto w-full lg:justify-center xl:justify-start  flex-wrap'>
+        <div className='relative flex gap-[20px] mx-auto w-full justify-center xl:justify-start  flex-wrap'>
           {projects.map((item, i) => (
             <div
               key={i}

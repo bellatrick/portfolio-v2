@@ -55,20 +55,20 @@ const SoftwareDev = () => {
   ];
   return (
     <JaraLayout>
-      <div className='bg-apply  py-40 px-20'>
-        <div className='flex justify-between py-4'>
-          <p className='text-[32px] font-bold'>Web development Projects</p>
+      <div className='bg-apply  py-40 px-4 lg:px-20'>
+        <div className='flex mx-auto w-full flex-col gap-4 lg:flex-row items-center lg:justify-between py-4'>
+          <p className='lg:text-[32px] text-[20px] font-bold'>Web development Projects</p>
           <p className='hover:underline text-[14px] font-semibold text-teal-600'>
-            <Link href={'/portfolio/technical-writing'}>
+            <Link className='underline' href={'/portfolio/technical-writing'}>
               Go to technical writing projects
             </Link>
           </p>
         </div>{' '}
-        <div className='relative flex gap-[20px] mx-auto w-full lg:justify-center xl:justify-start  flex-wrap'>
+        <div className='relative flex gap-[20px]  w-full justify-center xl:justify-start  flex-wrap'>
           {projects.map((item, i) => (
             <div
               key={i}
-              className='card flex flex-col w-[380px] border rounded-lg border-primary'
+              className='card flex  flex-col w-[380px] border rounded-lg border-primary'
             >
               <div className='h-[220px] w-full'>
                 <Image
@@ -84,10 +84,12 @@ const SoftwareDev = () => {
                 <div className='p-2 text-sm flex justify-center'>
                   <ul className=' flex w-fit  flex-wrap gap-x-[30px] gap-y-2'>
                     {item.stack.map((stack, i) => (
-                      <li className='text-wrap' key={i}>{stack}</li>
+                      <li className='text-wrap' key={i}><span className='text-[30px] font-bold'>.</span>{stack}</li>
                     ))}
                   </ul>
+
                 </div>
+                <hr className='h-1 border-cyan-500 w-full'/>
                 <div className='p-2 text-[14px] '>
                   <p>{item.description}</p>
                 </div>

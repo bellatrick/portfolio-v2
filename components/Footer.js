@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
@@ -12,7 +13,7 @@ const Footer = () => {
               </div>
               <div className="right " >
                 <div className="flex items-center justify-center">
-                  <img className="" src="img/about/mymoji.png" alt="" />
+                  <Image height={100} width={100} className="" src="/img/about/mymoji.png" alt="" />
                 </div>
                 <Link href={'/contact'} className="call">
                   <p className="bg-white text-gray-800 px-4 py-3 rounded-md hover:bg-black/80 hover:text-white text-center font-semibold">
@@ -25,9 +26,7 @@ const Footer = () => {
               <div className="year " >
                 <p>© {new Date().getFullYear()} Busayo All Right Reserved</p>
               </div>
-              <div className="logo " >
-                <img src="img/logo/logo.png" alt="" />
-              </div>
+
               <div className="social " >
                 <ul>
 

@@ -47,7 +47,7 @@ const Portfolio = () => {
             key={i}
             className='card items-center flex flex-col border rounded-lg border-primary'
           >
-            <div className='h-[400px] max-w-[500px] w-full'>
+            <Link  href={item.link} className='h-[400px] w-[500px]'>
               <Image
                 src={item.img}
                 alt=''
@@ -55,7 +55,7 @@ const Portfolio = () => {
                 width={600}
                 height={500}
               />
-            </div>
+            </Link>
             <div className=' flex-1 flex flex-col  relative z-10 rounded-b-lg text-white'>
               <p>{item.title}</p>
             </div>

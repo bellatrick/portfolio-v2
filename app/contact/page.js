@@ -48,7 +48,7 @@ const Contact = () => {
           <form
             ref={form}
             onSubmit={sendEmail}
-            className='flex w-[60%] mx-auto  items-center  justify-center bg-teal-900 gap-6 flex-col border-green-500 border-2 mt-16 rounded-lg p-4'
+            className='flex lg:w-[60%] w-full mx-auto  items-center  justify-center bg-teal-900 gap-6 flex-col border-green-500 border-2 mt-16 rounded-lg p-4'
           >
             <p className='text-white font-bold text-[30px] mb-4'>
               Let's talk
