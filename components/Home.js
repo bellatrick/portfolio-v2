@@ -37,8 +37,8 @@ const Home = () => {
               </div>
             </div>
             <div className="right">
-              <div className="in">
-                <Image height={200} width={200} className="" src="/img/about/mymoji2.png" alt="" />
+              <div className="h-[500px] w-[500px] object-cover">
+                <Image height={700} width={700} className="" src="/img/logo/moji.png" alt="" />
 
               </div>
             </div>
