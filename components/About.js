@@ -27,8 +27,8 @@ const About = () => {
             <div className="text">
               <p>
                 Over{" "}
-                <span className="text-green-500">3 years of coding</span>, I
-                transform concepts projects using{" "}
+                <span className="text-green-500">3 years of coding</span>! I
+                help to transform concepts projects using{" "}
                 <span className="text-green-500">logic</span> and{" "}
                 <span className="text-green-500">creativity.</span>{" "}
 
