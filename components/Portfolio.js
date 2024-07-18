@@ -56,7 +56,7 @@ const Portfolio = () => {
                 height={500}
               />
             </Link>
-            <div className=' flex-1 flex flex-col  relative z-10 rounded-b-lg text-white'>
+            <div className=' flex-1 flex flex-col  relative z-10 rounded-b-lg '>
               <p>{item.title}</p>
             </div>
           </Link>
