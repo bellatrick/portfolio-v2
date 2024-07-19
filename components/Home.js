@@ -37,8 +37,12 @@ const Home = () => {
               </div>
             </div>
             <div className="right">
-              <div className=" flex items-center  ">
-                <Image height={700} width={700} className="" src="/img/logo/moji.png" alt="" />
+              <div className="hidden lg:flex items-center  ">
+                <Image height={700} width={700} className="" src="/img/about/moji2.1.png" alt="" />
+
+              </div>
+              <div className="lg:hidden flex items-center  ">
+                <Image height={700} width={700} className="" src="/img/about/moji2.png" alt="" />
 
               </div>
             </div>
