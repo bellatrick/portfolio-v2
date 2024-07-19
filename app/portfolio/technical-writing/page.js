@@ -34,7 +34,7 @@ const SoftwareDev = () => {
       img: '/img/portfolio/piscina.png',
       description:
         'Piscina is an open source project built with typescript focused on the correct usage of Worker threads in Node.js. The project is sponsored by NearForm Research.  ',
-      role: "I spearheaded the development of a documentation site using Docusaurus. The site has over 40 pages of user guides, including API reference documentation. To further support developers, I included more than 20 example sections to illustrate Piscina's integration capabilities. Each code example in the documentation was written in both JavaScript and TypeScript. The documentation site is yet to be published",
+      role: "I spearheaded the development of a documentation site using Docusaurus. The site has over 40 pages of user guides, including API reference documentation. I included more than 20 example sections to illustrate Piscina's integration capabilities. Each code example in the documentation was written in both JavaScript and TypeScript. The documentation site is yet to be published",
 
       github: 'https://github.com/piscinajs/piscina/pull/591/commits',
       website: 'https://github.com/piscinajs/piscina/pull/591/commits'
