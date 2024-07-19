@@ -20,9 +20,9 @@ const Home = () => {
                 <h3 className="py-6">A Fullstack Developer & Technical Writer</h3>
 
               </div>
-              <div className="subtitle">
+              {/* <div className="subtitle">
                 <p>With 3+ years experience</p>
-              </div>
+              </div> */}
               <div className="buttons">
                 <div className="jara_tm_button">
                   <Link className="anchor" href="/contact">
