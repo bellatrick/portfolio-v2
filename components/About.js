@@ -34,7 +34,7 @@ const About = () => {
 
               </p>
               <div className="jara_tm_button_border">
-                <a href="img/portfolio/resume.pdf" download="">
+                <a href="img/portfolio/resume1.pdf" download="">
                   Download My Resume
                 </a>
               </div>
